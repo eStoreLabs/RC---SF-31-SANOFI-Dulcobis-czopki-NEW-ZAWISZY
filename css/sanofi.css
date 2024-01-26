@@ -676,4 +676,8 @@
 }
 #es-rc #es-rc-content .es-footer__logo {
   max-width: 150px;
-}/*# sourceMappingURL=sanofi.css.map */
+}
+#es-rc #es-rc-content .es-cross__head {
+  font-style: normal;
+}
+/*# sourceMappingURL=sanofi.css.map */
