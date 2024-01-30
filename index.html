@@ -517,3 +517,20 @@
       </div>
     </div>
   </div>
+    <script>
+      function getStyles(href) {
+      var head = document.getElementsByTagName('head')[0];
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = href;
+      head.appendChild(link);
+    }
+    document.onreadystatechange = function () {
+      if (document.readyState === 'complete') {
+        getStyles(
+          'https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/RC---SF-31-SANOFI-Dulcobis-czopki-NEW-ZAWISZY/css/style.css?dl=0'
+        );
+      }
+    };
+  </script>
